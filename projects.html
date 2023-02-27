@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Bruce Zhou</title>
+    <link rel="icon" type="image/x-icon" href="image/icon.ico">
+    <link rel="stylesheet" href="mystyle.css">
+    
+
+</head>
+<style>
+    @font-face {
+        font-family: Oswald;
+        src: url(assets/fonts/Oswald-VariableFont_wght.ttf);
+     }
+</style>
+<body class="two_sides">
+    <header>
+        <h1 id="title">TheBruz</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="nav-link">Main</a></li>
+                <li><a href="projects.html" class="nav-link active">Projects</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <p class="project_description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+        <picture>
+            <source media="(max-width:640px)" srcset="assets/photos/project1_phone.jpg">
+            <source media="(max-width:768px)" srcset="assets/photos/project1_tablet.png">
+            <img class="project_preview" alt="a preview for the current project" 
+                src="assets/photos/project1.png">
+        </picture>
+
+        <a href="https://www.thebruz.com/rent_collector" class="project_link">Link to Project</a>
+    </main>
+
+
+    <aside>
+        <ul class="project_list">
+            <li><a href="" class="active">Project 1</a></li>
+            <li><a href="">Project 2</a></li>
+            <li><a href="">Project 3</a></li>
+        </ul>
+    </aside>
+
+    <footer>
+        <p>&copy Bruce Zhou 2023</p>
+    </footer>
+
+</body>
+
+</html>
