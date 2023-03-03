@@ -5,11 +5,6 @@
     }
 }
 
-@keyframes font_increasing {
-    from {font-size: 1px;}
-    to {} 
-  }
-
 body {
     background-image: linear-gradient(to right, rgb(115, 149, 194) 70vw, #add8e6e7 70vw);
 }
@@ -55,19 +50,12 @@ footer {
 }
 
 
-#portrait:hover {
-    width: 30vh;
-    height: auto;
-}
-
 #title {
     position: absolute;
     left: 1vw;
     top: 0;
     font-family: "Oswald";
     color: #add8e6e7;
-    animation-name: font_increasing;
-    animation-duration: 4s;
 }
 
 nav {
@@ -129,7 +117,7 @@ nav > ul {
     list-style-type: none;
 }
 
-.project_list a {
+.project_list p {
     text-align: center;
     font-family: "Oswald", "Arial Black";
     font-size: xx-large;
@@ -139,7 +127,7 @@ nav > ul {
     text-decoration: none;
 }
 
-.project_list a:hover {
+.project_list p:hover {
     color: white;
 }
 
@@ -155,6 +143,8 @@ nav > ul {
 .project_preview {
     max-width: 50vw;
     max-height: 70vh;
+    border-style: solid;
+    border-color: white;
 }
 
 .project_link {
@@ -171,4 +161,13 @@ nav > ul {
     font-family: "Oswald", "Arial Black";
     font-size: xx-large;
     color: #add8e6e7;
+}
+
+#self-description-2 {
+    color: rgb(115, 149, 194);
+    font-family: "arial";
+    font-weight: bold;
+    position: absolute;
+    bottom: 50vh;
+    left: 71vw;
 }
